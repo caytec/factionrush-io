@@ -1,0 +1,15 @@
+{
+  "name": "factionrush-io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FactionRush.io - a fast authoritative multiplayer faction-war game.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  }
+}
